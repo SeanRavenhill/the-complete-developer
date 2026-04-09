@@ -1,3 +1,6 @@
+// N.B. Older code bases and projects might include the `node-fetch` dependancy.
+// import fetch from 'node-fetch';
+
 const routeHello = () => 'Hello World - Route!';
 
 const routeAPINames = async () => {
